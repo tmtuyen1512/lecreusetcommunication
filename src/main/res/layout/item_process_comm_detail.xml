@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#f6f7fd"
+        android:layout_marginTop="10dp"
+        android:paddingBottom="16dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:paddingTop="10dp"
+            android:paddingRight="16dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/tvLabelDetail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="File name 01"
+                style="@style/Montserrat_Bold"
+                android:textColor="#62778c"
+                android:singleLine="true"
+                android:ellipsize="middle"
+                android:layout_weight="1"/>
+            <TextView
+                android:id="@+id/tvType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Montserrat"
+                android:textSize="10sp"
+                tools:text="Uploading"
+                android:gravity="right"
+                android:layout_gravity="center_vertical"
+                android:visibility="visible"
+                android:textColor="@color/colorPrimary"
+                android:layout_weight="2"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/tvDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="1dp"
+            style="@style/Label_Montserrat_12"
+            android:visibility="visible"
+            tools:text = "0 KB"/>
+        <ProgressBar
+            android:id="@+id/progressBarComm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="10dp"
+            android:visibility="visible"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:indeterminate="false"
+            android:max="100"
+            android:maxHeight="5dip"
+            android:minHeight="5dip"
+            android:progress="0"
+            android:secondaryProgress="100"
+            android:progressDrawable="@drawable/progress_limit" />/>
+    </LinearLayout>
+
+</LinearLayout>

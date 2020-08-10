@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pale_grey">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:orientation="vertical">
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:background="@drawable/drawable_circle_pink"
+            android:drawableTop="@drawable/ic_warning_w"
+            android:gravity="center"
+            android:paddingTop="20dp" />
+
+
+        <TextView
+            style="@style/Header_Montserrat_Normal_16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center_horizontal"
+            android:text="@string/error"
+            android:textAllCaps="true"
+            android:textColor="@color/coral_pink" />
+
+        <TextView
+            android:id="@+id/message"
+            style="@style/Message_Montserrat_12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="20dp"
+            tools:text="Unable to save the setting.\nPlease try again, or contact the system \nadministrator" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="34dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnCancel"
+            style="@style/Button_Disable"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="@dimen/height_edittext"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/drawable_button_light_border"
+            android:text="@string/cancel"
+            android:layout_margin="16dp"
+            android:textAllCaps="false" />
+        <Button
+            android:id="@+id/btnRetry"
+            style="@style/Button_Common"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_edittext"
+            android:layout_weight="1"
+            android:background="@drawable/drawable_button_pink"
+            android:text="@string/retry"
+            android:layout_margin="16dp"
+            android:textAllCaps="false" />
+    </LinearLayout>
+
+</RelativeLayout>

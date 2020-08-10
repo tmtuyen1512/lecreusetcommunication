@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1967ab</color>
+    <color name="colorPrimaryDark">#1967ab</color>
+    <color name="colorAccent">#1967ab</color>
+
+    <color name="transparent">#55000000</color>
+    <color name="green">#20cbaf</color>
+    <color name="error">#fe5461</color>
+    <color name="label">#52677c</color>
+    <color name="gold">#FFBC0D</color>
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/drawable_dialog_radius_corner"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/header"
+            style="@style/Header_Montserrat_Bold_16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center_horizontal"
+            android:text="@string/confirm"
+            android:textColor="#232f3b"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/message"
+            style="@style/Message_Montserrat_12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:lineSpacingExtra="2.7sp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:textColor="@color/grey_blue"
+            android:textSize="14sp"
+            tools:text="Message here" />
+
+        <LinearLayout
+            android:id="@+id/layoutButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnDetails"
+                style="@style/Button_Common"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_edittext"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/drawable_button_border_blue"
+                android:text="@string/detail"
+                android:textAllCaps="false"
+                android:textColor="@color/colorPrimary" />
+
+            <Button
+                android:id="@+id/btnUpdate"
+                style="@style/Button_Common"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_edittext"
+                android:layout_marginLeft="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/drawable_button_green"
+                android:text="@string/update"
+                android:textAllCaps="false" />
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

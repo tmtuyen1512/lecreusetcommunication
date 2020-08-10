@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resources [
+    <!ENTITY help "Click for Help">
+    ]>
+<resources>
+    <string name="app_name">Communication</string>
+
+    <string name="communication">Send/Receive Data</string>
+    <string name="data">Data</string>
+    <string name="device_setting">Device IP</string>
+    <string name="send_data">Send data</string>
+    <string name="receive_data">Receive data</string>
+    <string name="renew_device_id">Renew device IP</string>
+    <string name="error_file_retain_config_read_error">An error occurred while reading device settings &help;</string>
+    <string name="getting_data">Retrieving data</string>
+    <string name="it_will_took_time_please_wait_a_moment">It might take a few minutes, please wait</string>
+    <string name="detail">Details</string>
+    <string name="inventory">Inventory</string>
+    <string name="order">Order</string>
+    <string name="error_read_database_config">Could not locate the RDI Catalogue Settings on the device &help;</string>
+    <string name="error_read_partner_database_config">Could locate the Partner Catalogue Settings on the device &help;</string>
+    <string name="error_read_policy_config">Could not locate Configuration settings on the device &help;</string>
+    <string name="error_file_app_config_read_error">An error occurred while reading the device settings &help;</string>
+    <string name="error_read_ftp_send">It was not possible to locate setting for %s &help;</string>
+    <string name="error_read_autoupdate_config">Could not locate Auto Update settings on the device &help;</string>
+    <string name="send_type">Send data summary</string>
+    <string name="error_no_internet_connection">No internet connection detected</string>
+    <string name="error_file_app_config_not_received">No configuration is received</string>
+    <string name="error_file_app_config_not_found">No configuration file found</string>
+    <string name="error_file_retain_config_not_found">FTP settings must be defined first</string>
+    <string name="menu_data">Menu Data</string>
+    <string name="completion_progress">Completion progress</string>
+    <string name="continue_">Continue</string>
+    <string name="connecting">Connecting</string>
+    <string name="logging_into_ftp">Logging in</string>
+    <string name="communication_done">Communication done</string>
+    <string name="validating_license">License validation</string>
+    <string name="login_ftp_label">Login to FTP</string>
+    <string name="all_record_has_been_sent">All your data has successfully been sent</string>
+    <string name="file_not_found">File not found</string>
+    <string name="success">Success</string>
+    <string name="not_success">Unsuccessful</string>
+    <string name="last_sync_week" formatted="false">Last sync. was %d week%s ago</string>
+    <string name="last_sync_day" formatted="false">Last sync. was %d day%s ago</string>
+    <string name="last_sync_hour" formatted="false">Last sync. was %d hour%s ago</string>
+    <string name="last_sync_minute" formatted="false">Last sync. was %d minute%s ago</string>
+    <string name="last_sync_second">Last sync. was %d seconds ago</string>
+    <string name="last_sync">Last sync. was … ago</string>
+    <string name="record_ready_send" formatted="false">%d record%s are ready to be sent</string>
+    <string name="multi">s are</string>
+    <string name="single">\u0020is</string>
+    <string name="configuration">Configuration</string>
+    <string name="auto_update">AutoUpdate</string>
+    <string name="saving_catalogs_to_database">Saving catalogs</string>
+    <string name="no_files_to_upload">No files to upload</string>
+    <string name="sending_files_for">Sending files for\u0020</string>
+    <string name="receiving_files_for">Receiving files for\u0020</string>
+    <string name="calculating">Calculating…</string>
+    <string name="uploading">Uploading</string>
+    <string name="downloading">Downloading</string>
+    <string name="data_has_been_received">Communication completed</string>
+    <string name="processing">Processing</string>
+    <string name="send_all">Send All</string>
+    <string name="update_configuration">Update Configuration</string>
+    <string name="received">Received</string>
+    <string name="error_while_updating_application">An Error occurred while Updating the Application.</string>
+    <string name="starting_communication">Starting Communication</string>
+    <string name="could_not_connect_to_server">Could not connect to the server</string>
+    <string name="an_error_occurred_while_sending_files_to_server">An error occurred while sending files to the server.</string>
+    <string name="an_error_occurred_while_receiving_files_to_server">An error occurred while receiving files to the server.</string>
+    <string name="connecting_to_server">Connecting to server…</string>
+    <string name="invalid_format_line">Invalid catalogue file</string>
+    <string name="one_or_more_lines_are_invalid_in_the_file">One or more lines are invalid in the catalogue</string>
+    <string name="waiting">Waiting</string>
+    <string name="line_progress" formatted="false">%d / %d lines</string>
+    <string name="lines">%d lines</string>
+    <string name="files_have_been_received" formatted="false">%d of %d files have been received</string>
+    <string name="files_have_been_sent" formatted="false">%d of %d files have been sent</string>
+    <string name="waiting_for_authentication">Waiting for authentication…</string>
+    <string name="username_or_password_incorrect">Bad Username or password</string>
+    <string name="it_was_not_possible_to_connect_to_the_server">Could not connect to the server</string>
+    <string name="starting_to_send_file_to_server">Sending files to the server…</string>
+    <string name="directory_not_found">directory not found</string>
+    <string name="failed_to_set_remote_upload_path">Could not specify the upload path</string>
+    <string name="can_not_open_to_file">Coulden\'t open the file</string>
+    <string name="unable_to_delete_file">Unable to delete file</string>
+    <string name="failed_to_set_remote_download_path">Could not specify the download path</string>
+    <string name="no_files_to_receive_from_server">No new files were found to be received</string>
+    <string name="get_files_from">Retrieving files from</string>
+    <string name="files_found">Files found:</string>
+    <string name="it_was_not_possible_to_get_the_filelist_from_server">Could not find files on the server</string>
+    <string name="no_file_to_receive">No file to receive</string>
+    <string name="total_files_received">Total files received</string>
+    <string name="not_receive">Not received</string>
+    <string name="starting_to_receive_file_from_server">Receiving files from server…</string>
+    <string name="not_connect_to_wifi">Cannot connect to the WIFI using the new settings</string>
+    <string name="new_wifi_connected">Successfully connected to WIFI</string>
+    <string name="no_ftp_settings_found">No FTP settings were found</string>
+    <string name="check_connection">Check connection</string>
+    <string name="files_orrupted">One or more files are corrupt</string>
+    <string name="warning">Warning</string>
+    <string name="please_contact_your_system_administrator">&help;</string>
+    <string name="msg_turn_on_location">To support WIFI, please enable location services</string>
+    <string name="go_to_settings">Go to settings</string>
+    <string name="pickup">Pickup</string>
+    <string name="skip">Skip</string>
+    <string name="backup">backup</string>
+    <string name="skip_same_file">No new file available</string>
+    <string name="new_files_are_received" formatted="false">%d new Files are received</string>
+    <string name="new_files_are_sent" formatted="false">%d new Files are sent</string>
+    <string name="new_files_are_up_to_date" formatted="false">%d Files are up-to-date</string>
+    <string name="shelfmark">Shelfmark</string>
+    <string name="module_list">Module list</string>
+    <string name="msg_download_module_fail">Couldn\'t download the module &help;</string>
+    <string name="update">Update</string>
+</resources>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resources [
+    <!ENTITY help "Klik for hjælp">
+    ]>
+<resources>
+    <string name="app_name">Kommunikation</string>
+
+    <string name="communication">Send/Modtag data</string>
+    <string name="data">Data</string>
+    <string name="device_setting">Enhedsindstillinger</string>
+    <string name="send_data">Send data</string>
+    <string name="receive_data">Modtag data</string>
+    <string name="renew_device_id">Forny IP adresse</string>
+    <string name="error_file_retain_config_read_error">En fejl opstod i forbindelse med indlæsning af konfigurationen &help; </string>
+    <string name="getting_data">Modtager data</string>
+    <string name="it_will_took_time_please_wait_a_moment">Vent venligst, da dette kan tage op til flere minutter</string>
+    <string name="detail">Detaljer</string>
+    <string name="inventory">Status</string>
+    <string name="order">Ordre</string>
+    <string name="error_read_database_config">Kunne ikke finde indstilligerne for RDI varekatalogerne &help;</string>
+    <string name="error_read_partner_database_config">Kunne ikke finde indstilligerne for partner varekatalogerne &help;</string>
+    <string name="error_read_policy_config">Kunne ikke finde indstilligerne for FTP serverne &help;</string>
+    <string name="error_file_app_config_read_error">En fejl opstod i forbindelse med læsning af konfigurationen &help;</string>
+    <string name="error_read_ftp_send">Det var ikke muligt at finde indstillingerne for %s &help;</string>
+    <string name="error_read_autoupdate_config">Kunne ikke finde indstilligerne for software opdateringerne &help;</string>
+    <string name="send_type">Afsendelses opsummering</string>
+    <string name="error_no_internet_connection">Ingen internetforbindelse</string>
+    <string name="error_file_app_config_not_received">Der blev ikke modtaget nogle konfigurationsfil</string>
+    <string name="error_file_app_config_not_found">Ingen konfigurationsfil blev fundet</string>
+    <string name="error_file_retain_config_not_found">Angiv venligst FTP indstillingerne</string>
+    <string name="menu_data">Vælg hvilke data du ønsker at afsende, eller benyt Send alt knappen</string>
+    <string name="completion_progress">Filoversigt</string>
+    <string name="continue_">Fortsæt</string>
+    <string name="connecting">Forbinder</string>
+    <string name="logging_into_ftp">Logger på FTP</string>
+    <string name="communication_done">Kommunikation afsluttet</string>
+    <string name="validating_license">Licens validering</string>
+    <string name="login_ftp_label">FTP login</string>
+    <string name="all_record_has_been_sent">Alt data er afsendt</string>
+    <string name="file_not_found">Filen blev ikke fundet</string>
+    <string name="success">Succes</string>
+    <string name="not_success">Fejl</string>
+    <string name="last_sync_week" formatted="false">%d uge%s siden sidste modt.</string>
+    <string name="last_sync_day" formatted="false">%d dag%s siden sidste modt.</string>
+    <string name="last_sync_hour" formatted="false">%d time%s siden sidste modt.</string>
+    <string name="last_sync_minute" formatted="false">%d minutter%s siden sidste modt.</string>
+    <string name="last_sync_second">%d sekunder siden sidste modt.</string>
+    <string name="last_sync">Sidste sync. var … siden</string>
+    <string name="record_ready_send" formatted="false">%d filer%s er klar til at blive afsendt</string>
+    <string name="multi"> er</string>
+    <string name="single"> er</string>
+    <string name="configuration">Konfiguration</string>
+    <string name="auto_update">Software opdatering</string>
+    <string name="saving_catalogs_to_database">Gemmer varelinjer i databasen</string>
+    <string name="no_files_to_upload">Ingen filer til afsendelse</string>
+    <string name="sending_files_for">Sender filer for\u0020</string>
+    <string name="receiving_files_for">Modtager filer for\u0020</string>
+    <string name="calculating">Udregner…</string>
+    <string name="uploading">Uploader</string>
+    <string name="downloading">Downloader</string>
+    <string name="data_has_been_received">Kommunikation afsluttet</string>
+    <string name="processing">Processere</string>
+    <string name="send_all">Send Alt</string>
+    <string name="received">Modtaget</string>
+    <string name="invalid_format_line">Ugyldigt format</string>
+    <string name="one_or_more_lines_are_invalid_in_the_file">En eller flere linjer er ugyldige i filen</string>
+    <string name="waiting">Venter</string>
+    <string name="line_progress" formatted="false">%d / %d linjer</string>
+    <string name="lines">%d linjer</string>
+    <string name="files_have_been_received" formatted="false">%d af %d filer er modtaget</string>
+    <string name="files_have_been_sent" formatted="false">%d af %d filer er sendt</string>
+    <string name="update_configuration">Opdaterer konfiguration</string>
+    <string name="error_while_updating_application">Fejl under opdatering af applikationen.</string>
+    <string name="starting_communication">Starter kommunikation</string>
+    <string name="could_not_connect_to_server">Kunne ikke forbinde til serveren</string>
+    <string name="an_error_occurred_while_sending_files_to_server">Der opstod en fejl under afsendelse af filer</string>
+    <string name="an_error_occurred_while_receiving_files_to_server">Der opstod en fejl under modtagelse af filer</string>
+    <string name="connecting_to_server">Forbinder til serveren…</string>
+    <string name="waiting_for_authentication">Venter på godkendelse…</string>
+    <string name="username_or_password_incorrect">Forkert brugernavn eller adgangskode</string>
+    <string name="it_was_not_possible_to_connect_to_the_server">Kunne ikke forbinde til serveren</string>
+    <string name="starting_to_send_file_to_server">Begynder afsendelse af filer…</string>
+    <string name="directory_not_found">Mappen blev ikke fundet</string>
+    <string name="failed_to_set_remote_upload_path">Kunne ikke finde destinationsmappen</string>
+    <string name="can_not_open_to_file">Kan ikke åbne filen</string>
+    <string name="unable_to_delete_file">Kan ikke slette filen</string>
+    <string name="failed_to_set_remote_download_path">Kunne ikke finde rodmappen</string>
+    <string name="no_files_to_receive_from_server">Ingen filer til modtagelse</string>
+    <string name="get_files_from">Modtag filer fra</string>
+    <string name="files_found">Filer fundet:</string>
+    <string name="it_was_not_possible_to_get_the_filelist_from_server">Det var ikke muligt at hente filer fra serveren</string>
+    <string name="no_file_to_receive">Ingen filer til modtagelse</string>
+    <string name="total_files_received">Antal filer modtaget</string>
+    <string name="not_receive">Ikke modtaget</string>
+    <string name="starting_to_receive_file_from_server">Modtager filer fra serveren…</string>
+    <string name="not_connect_to_wifi">Kan ikke oprette forbindelse til wifi med nye indstillinger</string>
+    <string name="new_wifi_connected">Ny wifi tilsluttet</string>
+    <string name="no_ftp_settings_found">Der blev ikke fundet nogen FTP-indstillinger</string>
+    <string name="check_connection">Kontroller forbindelsen</string>
+    <string name="files_orrupted">En eller flere filer er korrupte</string>
+    <string name="warning">Advarsel</string>
+    <string name="please_contact_your_system_administrator">Kontakt vores support &help;</string>
+    <string name="msg_turn_on_location">For at benytte WIFI skal placeringsindstillingerne angives til "Høj nøjagtighed"</string>
+    <string name="go_to_settings">Gå til placeringsindstillingerne</string>
+    <string name="pickup">Opsamling</string>
+    <string name="skip">Skip</string>
+    <string name="backup">backup</string>
+    <string name="skip_same_file">Ingen nyere fil tilgængelig</string>
+    <string name="new_files_are_received" formatted="false">%d Filer er modtaget</string>
+    <string name="new_files_are_sent" formatted="false">%d Filer er sendt</string>
+    <string name="new_files_are_up_to_date" formatted="false">%d Filer er opdaterede</string>
+    <string name="shelfmark">Hyldeforkant</string>
+    <string name="module_list">Module list</string>
+    <string name="msg_download_module_fail">Kunne ikke hente det manglende modul &help;</string>
+    <string name="update">Opdaterer</string>
+</resources>
